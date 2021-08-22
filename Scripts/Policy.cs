@@ -1,0 +1,23 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Policy : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void onClick()
+    {
+        Application.OpenURL("https://bananayuta.github.io/privacy-policy//");//""の中には開きたいWebページのURLを入力します
+    }
+}
